@@ -7,5 +7,7 @@
 		"path": "css-basics"
 	}
 ],
-  "settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tag-basics"
+	}
 }

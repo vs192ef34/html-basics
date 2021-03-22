@@ -1,49 +1,96 @@
-/* rule */
-body /* selector */ {
-  /* declaration */
-  /* property: value*/
-  background-color: hsl(80, 66%, 35%);
+.demo-block {
+  /* background-color: lightcyan; */
+  background-color: rgb(224, 255, 255);
 }
 
-/* rule */
-h1 {
-  color: white;
-  text-align: center;
+.demo-block-50 {
+  /* background-color: lightcyan; */
+  /* background-color: rgb(224, 255, 255);
+  opacity: 0.5; */
+
+  background: rgba(224, 255, 255, 0.5);
 }
 
-/* rule */
-p {
+.demo-border {
+  /* border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid; */
+
+  /* border-style: none solid none solid; */
+
+  /* border-style: dotted solid dotted; */
+
+  /* border-style: dotted solid; */
+
+  /* border-style: solid;
+
+  border-left-width: 10px;
+  border-right-width: 2px;
+  border-left-color: slateblue;
+  border-right-color: blueviolet; */
+
+  border: 3px solid slategray;
+  /* border-radius: 5px; */
+
+  /* border-top-left-radius: 10px; */
+}
+
+.demo-geometry {
+  margin: 50px 50px;
+  padding: 100px;
+  width: 600px;
+  height: 350px;
+}
+
+.demo-geometry-s {
+  margin: 10px 50px;
+  padding: 100px;
+}
+
+.demo-geometry-i {
+  margin: 0px;
+  width: 100%;
+}
+
+.demo-text {
+  color: darkslateblue;
+  text-align: left;
+  /* text-decoration: underline; */
+  /* text-transform: capitalize; */
+  text-indent: 30px;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  white-space: wrap;
+  /* text-shadow: 1px 1px gray; */
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  text-align: justify;
+  font-size: 11pt;
+  font-weight: 100;
+  /* font-style: italic; */
 }
 
-/* id selector */
-#main-sub-title {
-  color: whitesmoke;
-  text-align: right;
-  font-size: 22px;
+.demo-valign {
+  vertical-align: middle;
 }
 
-/* class selector */
-.basic-information {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  font-style: italic;
+.demo-block-bg {
+  /* background-color: lightcyan; */
+  background-color: rgb(224, 255, 255);
+  opacity: 0.5;
+
+  background-image: url("https://picsum.photos/300/300");
+  /* background-image: url("../images/bg-zb.png"); */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+
+  /* shorthand */
+  /* background: rgba(224, 255, 255, 0.5) url("https://picsum.photos/300/300")
+    no-repeat center center; */
 }
 
-.bold-text {
-  font-weight: bold;
-}
-
-/* universal selector */
-* {
-  color: blue;
-}
-
-/* css grouping selector */
-h3,
-h4 {
-  color: white;
-  text-align: justify;
+body {
+  background-color: lightsteelblue;
 }

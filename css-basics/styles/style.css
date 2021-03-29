@@ -98,3 +98,29 @@
   background-color: #008cba;
   color: white;
 }
+
+.overflow-demo {
+  background-color: #eee;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/* for demo001.html */
+
+.first-letter-is-big {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, "Courier New", Courier, monospace;
+  line-height: 80%;
+}
+
+.first-letter-is-big-css::first-letter {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, "Courier New", Courier, monospace;
+  line-height: 80%;
+  padding-right: 10px;
+}

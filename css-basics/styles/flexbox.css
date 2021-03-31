@@ -5,8 +5,10 @@ html {
 .flex-container {
   display: flex;
   background-color: lightblue;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: no-wrap;
 }
 
 .flex-container > div {
@@ -14,5 +16,5 @@ html {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  width: 300px;
+  width: 60px;
 }

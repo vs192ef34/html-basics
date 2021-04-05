@@ -1,0 +1,15 @@
+.newspaper {
+  column-count: 3;
+  column-gap: 60px;
+  /* column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: indianred; */
+
+  column-rule: 1px solid indianred;
+
+  column-width: 500px;
+}
+
+.newspaper > h1 {
+  column-span: all;
+}

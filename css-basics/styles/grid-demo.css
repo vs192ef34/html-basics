@@ -1,0 +1,44 @@
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: menu;
+  width: 300px;
+}
+
+.item3 {
+  grid-area: main;
+  column-count: 2;
+}
+
+.item3 > p {
+  font-size: 20px;
+}
+
+.item4 {
+  grid-area: right;
+  width: 250px;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header "
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  background-color: darkblue;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+}

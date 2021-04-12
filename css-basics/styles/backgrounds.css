@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hero-image {
+  background: url(https://picsum.photos/seed/picsum-hero/800/350) no-repeat
+    center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text > h1 {
+  font-size: 50px;
+}
+
+.demo-box {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 30px;
+  height: 350px;
+}
+
+.demo01 {
+  background-image: url(https://picsum.photos/seed/picsum-demo01-first/400/200),
+    url(https://picsum.photos/seed/picsum-demo01-second/400/250);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.demo02 {
+  border: 10px solid transparent;
+  padding: 15px;
+
+  background-image: url(https://picsum.photos/seed/picsum-demo02-first/400/200);
+  background-position: left top;
+  background-repeat: space round;
+  background-size: 200px 100px;
+  border-image: url(https://picsum.photos/seed/picsum-demo02-border/400/10) 30
+    stretch;
+}
+
+.demo03 {
+  background-image: url(https://picsum.photos/seed/picsum-demo03-first/1500/300);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-size: 100%;
+}

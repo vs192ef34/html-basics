@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  border: 1px solid salmon;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bbox {
+  border: 1px solid blueviolet;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center01 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.pcenter {
+  text-align: center;
+  width: 50%;
+}
+
+.icenter {
+  display: block;
+  margin: auto;
+}
+
+.center02 {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+}
+
+.rd {
+  position: relative;
+}

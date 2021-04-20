@@ -1,0 +1,15 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 1 1 500px;
+
+  border: 1px solid orchid;
+  background: lightcoral;
+  text-align: justify;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}

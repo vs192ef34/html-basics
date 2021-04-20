@@ -47,3 +47,51 @@ body {
 .rd {
   position: relative;
 }
+
+.center03 {
+  line-height: 200px;
+  height: 200px;
+  border: 2px solid green;
+  text-align: center;
+}
+
+.center03 p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center04 {
+  height: 200px;
+  border: 2px solid green;
+  position: relative;
+}
+
+.center04 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.center05 {
+  height: 200px;
+  border: 2px solid blueviolet;
+
+  margin: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo01 {
+  border: 2px solid rebeccapurple;
+  width: 1800px;
+}
+
+.demo02 {
+  border: 2px solid orange;
+  max-width: 1800px;
+}

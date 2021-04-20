@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  padding: 0;
+  margin: 0;
+
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+
+.sidebar {
+  background: lightpink;
+  text-align: left;
+
+  height: 100vh;
+}
+
+.content {
+  padding: 2rem;
+}

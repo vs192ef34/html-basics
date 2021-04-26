@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background-color: #aaa;
+}
+
+.bg2 {
+  background-color: #bbb;
+}
+
+.bg3 {
+  background-color: #ccc;
+}
+
+.bg4 {
+  background-color: #ddd;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}

@@ -1,13 +1,16 @@
 {
   "folders": [
-	{
-		"path": "tag-basics"
-	},
-	{
-		"path": "css-basics"
-	}
-],
+		{
+			"path": "tag-basics"
+		},
+		{
+			"path": "css-basics"
+		},
+		{
+			"path": "rwd"
+		}
+	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "css-basics"
+		"liveServer.settings.multiRootWorkspaceName": "rwd"
 	}
 }

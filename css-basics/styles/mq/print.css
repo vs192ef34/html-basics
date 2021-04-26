@@ -1,0 +1,20 @@
+body {
+  padding: 10;
+}
+
+header {
+  display: none;
+}
+
+main {
+  column-count: 2;
+}
+
+footer {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  column-span: all;
+}

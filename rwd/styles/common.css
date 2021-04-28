@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #ffd900;
+  color: black;
+  border: 1px solid darkorange;
+  padding: 10px;
+}

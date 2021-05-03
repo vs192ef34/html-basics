@@ -1,0 +1,34 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
+  transition: width 2s, height 2s, transform 2s;
+
+  /* transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-delay: 1s; */
+}
+
+.tran:hover {
+  width: 400px;
+  height: 400px;
+  transform: rotate(180deg);
+}
+
+.abox {
+  width: 150px;
+  height: 150px;
+  background: hotpink;
+  animation-name: demo;
+  animation-duration: 6s;
+}
+
+@keyframes demo {
+  from {
+    background-color: hotpink;
+  }
+  to {
+    background-color: indianred;
+  }
+}

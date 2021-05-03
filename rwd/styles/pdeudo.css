@@ -1,0 +1,39 @@
+a:link {
+  color: cadetblue;
+}
+
+a:visited {
+  color: crimson;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: chartreuse;
+}
+
+table {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: darkgray;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+table::before {
+  content: "Before table";
+}
+
+table::after {
+  content: "After table";
+}

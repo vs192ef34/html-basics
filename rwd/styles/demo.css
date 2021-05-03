@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.box {
+  background-color: azure;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  padding: 7px;
+}
+
+#demo-box {
+  background-color: beige;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin-top: 5px;
+}
+
+a {
+  background-color: cadetblue;
+  display: block;
+  margin: 3px;
+  padding: 3px;
+  color: whitesmoke;
+}
+
+a[target] {
+  background-color: thistle;
+}
+
+a[target="_parent"] {
+  background-color: cornflowerblue;
+}
+
+a[href] {
+  color: blueviolet;
+}
+
+img {
+  border: 1px solid burlywood;
+}
+
+[title~="test123"] {
+  border: 1px solid red;
+  color: red;
+}
+
+[title|="test123"] {
+  border: 1px solid blue;
+  color: blue;
+}
+
+[title$="endtest"] {
+  border: 1px solid black;
+  color: black;
+}
+
+.right-column {
+  position: absolute;
+  top: 8px;
+  left: 420px;
+}
+
+.small-box {
+  background-color: gainsboro;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+/*
+ (space) - descendant selector
+> - child selector
++ - adjacent sibling selector
+~ - general sibling selector
+*/
+
+div > div > p {
+  background-color: gold;
+  color: black;
+}

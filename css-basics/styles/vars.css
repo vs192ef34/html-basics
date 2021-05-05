@@ -1,0 +1,27 @@
+:root {
+  --mainColor: #619ec2;
+  --bgColor: rgb(228, 227, 227);
+  --bigPadding: 15px;
+  --smallPadding: 5px;
+}
+
+body {
+  background-color: var(--mainColor);
+}
+
+h2 {
+  border-bottom: 2px solid var(--mainColor);
+}
+
+.container {
+  color: var(--mainColor);
+  background-color: var(--bgColor);
+  padding: var(--bigPadding);
+}
+
+button {
+  background-color: var(--bgColor);
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  padding: var(--smallPadding);
+}

@@ -1,0 +1,58 @@
+.demo-id {
+  background-color: blue;
+}
+
+.demo {
+  background-color: cadetblue;
+}
+
+p {
+  background-color: blanchedalmond !important;
+}
+
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) ". ";
+}
+
+ol {
+  counter-reset: lsection;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: lsection;
+  content: counters(lsection, ".") ": ";
+}
+
+.pane {
+  font-size: x-large;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.pane {
+  counter-reset: itemcounter;
+}
+
+.item::before {
+  counter-increment: itemcounter;
+  content: "Item #: " counter(itemcounter) ": ";
+}

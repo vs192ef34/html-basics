@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>HTML Forms Demo</h1>
+    <form action="server.html" method="GET" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information:</legend>
+        <label for="fname">First Name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Form Elements:</legend>
+        <label for="cars">Cars:</label>
+        <select name="cars" id="cars" size="5" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="audi">Audi</option>
+          <option value="ford">Ford</option>
+          <option value="tesla">Tesla</option>
+          <option value="fiat">Fiat</option>
+        </select>
+        <label for="teditor">Long text</label>
+        <textarea name="teditor" id="teditor" cols="30" rows="10"></textarea>
+
+        <button type="button">Click Me!!!!</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="menu">Menu</button>
+      </fieldset>
+      <fieldset>
+        <input list="browsers" name="browsers" />
+        <datalist id="browsers">
+          <option value="IE6"></option>
+          <option value="Firefor"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+        </datalist>
+      </fieldset>
+      <fieldset>
+        <input type="tel" name="it14" /><br />
+        <input type="url" name="it15" /><br />
+        <input type="search" name="it13" /><br />
+        <input type="range" name="it12" /><br />
+        <input type="radio" name="it11" /><br />
+        <input type="radio" name="it11" /><br />
+        <input type="text" /><br />
+        <input type="checkbox" name="ch1" /><br />
+        <input type="checkbox" name="ch2" /><br />
+        <input type="color" name="it1" /><br />
+        <input type="date" name="it2" /><br />
+        <input type="datetime-local" name="it3" /><br />
+        <input type="email" name="it4" /><br />
+        <input type="file" name="it5" /><br />
+        <input type="month" name="it6" />
+        <input type="week" name="it7" />
+        <input type="time" name="it8" /><br />
+        <input type="number" name="it9" /><br />
+        <input type="password" name="it10" /><br />
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iusto
+      doloremque libero reprehenderit excepturi consectetur officiis dolore iure
+      placeat architecto explicabo facere molestiae cumque doloribus deleniti
+      repudiandae magnam, suscipit dolorum.
+    </p>
+  </body>
+</html>
